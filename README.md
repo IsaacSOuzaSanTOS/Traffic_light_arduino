@@ -10,21 +10,22 @@ O sistema simula um **semáforo real**, alternando entre as cores **vermelho, ve
 ---
 
 ## 🎥 Demonstração em Vídeo
-📎 [Clique aqui para assistir ao vídeo da montagem e funcionamento](URL_DO_VÍDEO_AQUI)
+📎 [Clique aqui para assistir ao vídeo da montagem e funcionamento](https://drive.google.com/file/d/1d6SqWc0Bpe2Xf6FKP6SlCxT-Oxd38DgP/view?usp=sharing)
 
 ---
 
 ## 🗂️ Estrutura de Pastas
 
-📁 semaforo-butanta/
+```
+📁 Traffic_light_arduino/
 │
 ├── 📄 README.md
-│ → Descrição geral do projeto, contexto e estrutura.
+│ 
 │
 ├── 📁 /montagem-fisica
-│   ├── esquema_protoboard.png
-│   ├── conexoes_detalhadas.jpg
-│   └── explicacao_montagem.md
+│   ├── circuito1.jpg
+│   ├── circuito2.jpg
+│   └── manual_de_montagem.md
 │ 
 │
 ├── 📁 /codigo
@@ -32,26 +33,16 @@ O sistema simula um **semáforo real**, alternando entre as cores **vermelho, ve
 │   └── explicacao_codigo.md
 │ 
 │
-├── 📁 /componentes
-│   └── tabela_componentes.md
-│ 
-│
-├── 📁 /avaliacoes
-│   ├── avaliacao1.pdf
-│   ├── avaliacao2.pdf
-│   └── resultados_avaliacoes.md
-│ 
-│
-└── 📁 /documentacao
-    └── relatorio_final.md
+└── 📁 /componentes
+    ├── componentes.jpg
+    └── componentes.md
+```
 
 ---
 
 ## 🧭 Guia Rápido
-- **/montagem-fisica** → Fotos, esquema e descrição das conexões.  
-- **/codigo** → Arquivo-fonte e explicação da lógica de controle.  
-- **/componentes** → Especificações técnicas dos itens usados.  
-- **/avaliacoes** → Arquivos das avaliações de pares.  
-- **/documentacao** → Relatório e reflexões do projeto.
+- **montagem-fisica** → Fotos, esquemas e descrição das conexões do circuito.  
+- **codigo** → Arquivo-fonte e explicação da lógica de controle do semáforo.  
+- **componentes** → Especificações técnicas de LEDs, resistores e demais itens usados.  
 
 ---
